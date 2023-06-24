@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_app_2/product/theme/light_theme.dart';
+import 'package:flutter_demo_app_2/screens/register/register_screen.dart';
 import 'package:flutter_demo_app_2/screens/splash/splash_screen.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Mobile App Demo',
       theme: LightTheme().theme,
-      home: const SplashView(),
+      home: const RegisterView(),
     );
   }
 }
