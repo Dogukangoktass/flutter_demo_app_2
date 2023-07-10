@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_demo_app_2/product/theme/light_theme.dart';
+import 'package:flutter_demo_app_2/product/widget/navigation/deneme.dart';
+import 'package:flutter_demo_app_2/product/widget/navigation/deneme2.dart';
+import 'package:flutter_demo_app_2/product/widget/navigation/deneme3.dart';
+import 'package:flutter_demo_app_2/product/widget/navigation/navigation_view.dart';
+import 'package:flutter_demo_app_2/screens/gallery/gallery_view.dart';
 import 'package:flutter_demo_app_2/screens/login/login_screen.dart';
 import 'package:flutter_demo_app_2/screens/register/register_screen.dart';
 import 'package:flutter_demo_app_2/screens/splash/splash_screen.dart';
@@ -18,7 +23,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Mobile App Demo',
       theme: LightTheme().theme,
-      home: const LoginView(),
+      home: const NavigationView(),
     );
   }
 }
